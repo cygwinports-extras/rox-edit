@@ -1,0 +1,8 @@
+inherit rox
+
+SRC_URI="mirror://sourceforge/rox/${ORIG_PN}-${PV}.tar.bz2"
+
+DISTCLEANFILES="Edit/.cvsignore"
+
+ROX_APP="Edit"
+ROX_WRAPPER=${PN}
