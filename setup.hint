@@ -1,5 +1,5 @@
 category: ROX Editors
-requires: python python-gobject2.0 python-gtk2.0 python-gtksourceview python-gtkspell rox-lib2
+requires: python python-gobject2.0 python-gtk2.0 python-gtksourceview2 python-gtkspell rox-lib2
 sdesc: "ROX text editor"
 ldesc: "ROX is a fast, user friendly desktop based on RISC OS which 
 makes extensive use of drag-and-drop. The interface revolves around the 

@@ -1,6 +1,7 @@
 inherit rox
 
 SRC_URI="mirror://sourceforge/rox/${ORIG_PN}-${PV}.tar.bz2"
+PATCH_URI="2.1-gtksourceview2.patch"
 
 DISTCLEANFILES="Edit/.cvsignore"
 

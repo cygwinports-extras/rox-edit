@@ -10,10 +10,10 @@ This package provides a text editor.
 
 Runtime requirements:
   python-2.5.4-10
-  python-gobject2.0-2.18.0-1
+  python-gobject2.0-2.20.0-1
   python-gtk2.0-2.16.0-1
-  python-gtksourceview-2.26.0-1
-  python-gtkspell-2.25.3-1
+  python-gtksourceview2-2.8.0-1
+  python-gtkspell-2.27.0-1
   rox-lib2-2.0.6-1
 
 Build requirements:
@@ -44,6 +44,9 @@ command-line: 'cygcheck -cd rox-edit'.
 -------------------------------------------
 
 Port Notes:
+
+----- version 2.1-2 -----
+Patched to use python-gtksourceview2.
 
 ----- version 2.1-1 -----
 Initial release for Cygwin 1.7.
