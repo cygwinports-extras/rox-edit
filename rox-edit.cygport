@@ -1,0 +1,18 @@
+inherit rox
+
+NAME="rox-edit"
+VERSION=2.2
+RELEASE=1
+CATEGORY="ROX"
+SUMMARY="ROX text editor"
+DESCRIPTION="ROX is a fast, user friendly desktop based on RISC OS which makes
+extensive use of drag-and-drop. The interface revolves around the file manager,
+or filer, following the traditional Unix view that 'everything is a file' rather
+than trying to hide the filesystem beneath start menus, wizards, or druids.
+This package provides a text editor."
+SRC_URI="mirror://sourceforge/rox/${ORIG_PN}-${PV}.tar.bz2"
+
+DISTCLEANFILES="Edit/.cvsignore"
+
+ROX_APP="Edit"
+ROX_WRAPPER=${PN}
