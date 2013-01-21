@@ -2,7 +2,7 @@ inherit rox
 
 NAME="rox-edit"
 VERSION=2.2
-RELEASE=1
+RELEASE=2
 CATEGORY="ROX"
 SUMMARY="ROX text editor"
 DESCRIPTION="ROX is a fast, user friendly desktop based on RISC OS which makes
